@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Batalha Personagens/1.0.0": {
+        "runtime": {
+          "Batalha Personagens.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Batalha Personagens/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

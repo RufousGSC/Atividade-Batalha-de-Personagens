@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
+              "RelativeDocumentMoniker": "Batalha Personagens\\Program.cs",
+              "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
+              "RelativeToolTip": "Batalha Personagens\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T22:48:17.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
