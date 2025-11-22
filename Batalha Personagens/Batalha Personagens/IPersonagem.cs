@@ -13,7 +13,9 @@ namespace Batalha_Personagens
         public int vida { get; set; }
         public void AcaoAtaque();
         public void AcaoDefesa();
-
+        public int GetAtaque();
+        public int GetDefesa();
+        public int GetVida();
 
     }
 }

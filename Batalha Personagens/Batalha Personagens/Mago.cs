@@ -35,5 +35,9 @@ namespace Batalha_Personagens
         {
             return this.Defesa;
         }
+        public int GetVida()
+        { 
+            return this.vida;
+        }
     }
 }
