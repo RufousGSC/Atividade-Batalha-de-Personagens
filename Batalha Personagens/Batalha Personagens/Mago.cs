@@ -17,7 +17,7 @@ namespace Batalha_Personagens
         public void AcaoAtaque()
         {
             Random RndAtaque = new Random();
-            this.Ataque = RndAtaque.Next(1, 36);
+            this.Ataque = RndAtaque.Next(1, 31);
         }
 
         public void AcaoDefesa()

@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Batalha Personagens\\Program.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
               "RelativeToolTip": "Batalha Personagens\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T22:48:17.801Z",
               "EditorCaption": ""
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "Batalha Personagens\\Mago.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Mago.cs",
               "RelativeToolTip": "Batalha Personagens\\Mago.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T01:25:57.564Z",
               "EditorCaption": ""
@@ -81,8 +81,7 @@
               "RelativeToolTip": "Batalha Personagens\\IPersonagem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T23:22:31.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T23:22:31.479Z"
             }
           ]
         }
