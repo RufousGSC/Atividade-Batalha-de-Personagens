@@ -3,67 +3,141 @@
 using Batalha_Personagens;
 using System.Reflection.PortableExecutable;
 
-IPersonagem Jogador1 = new Guerreiro();
-IPersonagem Jogador2 = new Mago();
+IPersonagem Guerreiro = new Guerreiro();
+IPersonagem Mago = new Mago();
 
-Jogador1.AcaoAtaque();
-Jogador1.AcaoDefesa();
+Guerreiro.AcaoAtaque();
+Guerreiro.AcaoDefesa();
 
-Jogador2.AcaoAtaque();
-Jogador2.AcaoDefesa();
+Mago.AcaoAtaque();
+Mago.AcaoDefesa();
+
+Random random1 = new Random();
+Random random2 = new Random();
 
 while (true)
 {
-    if (Jogador1.GetAtaque() == Jogador2.GetDefesa())
+    int EscolhaGuerreiro = random1.Next(0,2);
+    int EscolhaMago = random2.Next(0, 2);
+
+    if (EscolhaGuerreiro == 0 && EscolhaMago == 1)
     {
-        Console.WriteLine("Empate " + Jogador1.GetAtaque() + " + " + Jogador2.GetDefesa() + "\n");
-    }
-    else
-    {
-        if (Jogador1.GetAtaque() < Jogador2.GetDefesa())
+        if (Guerreiro.GetAtaque() == Mago.GetDefesa())
         {
-            Console.WriteLine("\nJogador 1 perdeu Ataque " + Jogador1.GetAtaque() + " x " + Jogador2.GetDefesa() + "\n");
-            Jogador1.vida = Jogador1.vida + (Jogador1.GetAtaque() - Jogador2.GetDefesa());
-            Console.WriteLine("jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+            Console.WriteLine("Empate " + Guerreiro.GetAtaque() + " x " + Mago.GetDefesa() + "\n");
         }
         else
         {
-            Console.WriteLine("\nJogador 2 Perdeu Defesa " + Jogador1.GetAtaque() + " x " + Jogador2.GetDefesa() + "\n");
-            Jogador2.vida = Jogador2.vida - (Jogador1.GetAtaque() - Jogador2.GetDefesa());
-            Console.WriteLine("Jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+            if (Guerreiro.GetAtaque() < Mago.GetDefesa())
+            {
+                Console.WriteLine("\nGuerreiro perdeu Ataque contra Defesa " + Guerreiro.GetAtaque() + " x " + Mago.GetDefesa() + "\n");
+                Guerreiro.vida = Guerreiro.vida + (Guerreiro.GetAtaque() - Mago.GetDefesa());
+                Console.WriteLine("Dano causado pelo Mago: " + (Mago.GetDefesa() - Guerreiro.GetAtaque()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
+            else
+            {
+                Console.WriteLine("\nMago Perdeu Defesa contra Ataque " + Guerreiro.GetAtaque() + " x " + Mago.GetDefesa() + "\n");
+                Mago.vida = Mago.vida - (Guerreiro.GetAtaque() - Mago.GetDefesa());
+                Console.WriteLine("Dano causado pelo Guerreiro: " + (Guerreiro.GetAtaque() - Mago.GetDefesa()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
         }
-    }
+    }  
 
-    Console.WriteLine("-------------------------------");
-    if (Jogador1.GetDefesa() == Jogador2.GetAtaque())
+    if (EscolhaGuerreiro == 1 && EscolhaMago == 0)
     {
-        Console.WriteLine("Empate " + Jogador1.GetAtaque() + " x " + Jogador2.GetDefesa() + "\n");
-    }
-     else 
-     {
-        if (Jogador1.GetDefesa() < Jogador2.GetAtaque())
+        if (Guerreiro.GetDefesa() == Mago.GetAtaque())
         {
-            Console.WriteLine("\nJogador 1 perdeu Defesa " + Jogador1.GetDefesa() + " x " + Jogador2.GetAtaque() + "\n");
-            Jogador1.vida = Jogador1.vida + (Jogador1.GetDefesa() - Jogador2.GetAtaque());
-            Console.WriteLine("jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+            Console.WriteLine("Empate " + Guerreiro.GetAtaque() + " x " + Mago.GetDefesa() + "\n");
         }
         else
         {
-            Console.WriteLine("\nJogador 2 Perdeu Ataque " + Jogador1.GetDefesa() + "  " + Jogador2.GetAtaque() + "\n");
-            Jogador2.vida = Jogador2.vida - (Jogador1.GetDefesa() - Jogador2.GetAtaque());
-            Console.WriteLine("jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+            if (Guerreiro.GetDefesa() < Mago.GetAtaque())
+            {
+                Console.WriteLine("\nGuerreiro perdeu Defesa contra Ataque " + Guerreiro.GetDefesa() + " x " + Mago.GetAtaque() + "\n");
+                Guerreiro.vida = Guerreiro.vida + (Guerreiro.GetDefesa() - Mago.GetAtaque());
+                Console.WriteLine("Dano causado pelo Mago: " + (Mago.GetAtaque() - Guerreiro.GetDefesa()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
+            else
+            {
+                Console.WriteLine("\nMago Perdeu Ataque contra Defesa " + Guerreiro.GetDefesa() + " x " + Mago.GetAtaque() + "\n");
+                Mago.vida = Mago.vida - (Guerreiro.GetDefesa() - Mago.GetAtaque());
+                Console.WriteLine("Dano causado pelo Guerreiro: " + ( Guerreiro.GetDefesa() - Mago.GetAtaque()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
         }
-     }
+    }    
 
-    Console.WriteLine("xxxxx---------xxxxx----------xxxx");
+    if (EscolhaGuerreiro == 0 && EscolhaMago == 0)
+    {
+        if (Guerreiro.GetAtaque() == Mago.GetAtaque())
+        {
+            Console.WriteLine("Empate " + Guerreiro.GetAtaque() + " x " + Mago.GetAtaque() + "\n");
+        }
+        else
+        {
+            if (Guerreiro.GetAtaque() < Mago.GetAtaque())
+            {
+                Console.WriteLine("\nGuerreiro perdeu Ataque Contra Ataque " + Guerreiro.GetAtaque() + " x " + Mago.GetAtaque() + "\n");
+                Guerreiro.vida = Guerreiro.vida + (Guerreiro.GetAtaque() - Mago.GetAtaque());
+                Console.WriteLine("Dano causado pelo Mago: " + (Mago.GetAtaque() - Guerreiro.GetAtaque()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
+            else
+            {
+                Console.WriteLine("\nMago Perdeu Ataqua contra Ataque " + Guerreiro.GetAtaque() + " x " + Mago.GetAtaque() + "\n");
+                Mago.vida = Mago.vida - (Guerreiro.GetAtaque() - Mago.GetAtaque());
+                Console.WriteLine("Dano causado pelo Guerreiro: " + (Guerreiro.GetAtaque() - Mago.GetAtaque()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
+        }
+    }
 
-    Jogador1.AcaoAtaque();
-    Jogador1.AcaoDefesa();
+    if (EscolhaGuerreiro == 1 && EscolhaMago == 1)
+    {
+        if (Guerreiro.GetDefesa() == Mago.GetDefesa())
+        {
+            Console.WriteLine("Empate " + Guerreiro.GetDefesa() + " x " + Mago.GetDefesa() + "\n");
+        }
+        else
+        {
+            if (Guerreiro.GetDefesa() < Mago.GetDefesa())
+            {
+                Console.WriteLine("\nGuerreiro perdeu Defesa Contra Defesa " + Guerreiro.GetDefesa() + " x " + Mago.GetDefesa() + "\n");
+                Guerreiro.vida = Guerreiro.vida + (Guerreiro.GetDefesa() - Mago.GetDefesa());
+                Console.WriteLine("Dano causado pelo Mago: " + (Mago.GetDefesa() - Guerreiro.GetDefesa()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
+            else
+            {
+                Console.WriteLine("\nMago Perdeu Defesa contra Defesa " + Guerreiro.GetDefesa() + " x " + Mago.GetDefesa() + "\n");
+                Mago.vida = Mago.vida - (Guerreiro.GetDefesa() - Mago.GetDefesa());
+                Console.WriteLine("Dano causado pelo Guerreiro: " + (Guerreiro.GetDefesa() - Mago.GetDefesa()));
+                Console.WriteLine("\nGuerreiro vida: " + Guerreiro.GetVida() + "\nMago Vida: " + Mago.GetVida());
+            }
+        }
+    }
 
-    Jogador2.AcaoAtaque();
-    Jogador2.AcaoDefesa();
+    Console.WriteLine("------------------------");
 
-    if (Jogador1.GetVida() <= 0 || Jogador2.GetVida() <= 0)
+    Guerreiro.AcaoAtaque();
+    Guerreiro.AcaoDefesa();
+
+    Mago.AcaoAtaque();
+    Mago.AcaoDefesa();
+    if(Guerreiro.GetVida() <= 0)
+    {
+        Console.WriteLine("PARABENS O MAGO GANHOU O DUELO");
+    }
+    
+    if(Mago.GetVida() <= 0)
+    {
+        Console.WriteLine("PARABENS O GUERREIRO GANHOU O DUELO");
+    }
+
+    if (Guerreiro.GetVida() <= 0 || Mago.GetVida() <= 0)
     {
         break;
     }

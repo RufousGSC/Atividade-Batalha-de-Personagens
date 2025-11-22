@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Batalha Personagens\\Program.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
               "RelativeToolTip": "Batalha Personagens\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHUAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T22:48:17.801Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Batalha Personagens\\Guerreiro.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Guerreiro.cs",
               "RelativeToolTip": "Batalha Personagens\\Guerreiro.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T01:26:33.484Z",
               "EditorCaption": ""
@@ -68,7 +68,8 @@
               "RelativeToolTip": "Batalha Personagens\\Mago.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T01:25:57.564Z"
+              "WhenOpened": "2025-11-22T01:25:57.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,7 +81,8 @@
               "RelativeToolTip": "Batalha Personagens\\IPersonagem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T23:22:31.479Z"
+              "WhenOpened": "2025-11-21T23:22:31.479Z",
+              "EditorCaption": ""
             }
           ]
         }
