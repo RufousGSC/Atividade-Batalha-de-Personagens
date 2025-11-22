@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\guerreiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\guerreiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\ipersonagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\ipersonagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +40,48 @@
               "RelativeDocumentMoniker": "Batalha Personagens\\Program.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
               "RelativeToolTip": "Batalha Personagens\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T22:48:17.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Guerreiro.cs",
+              "DocumentMoniker": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Guerreiro.cs",
+              "RelativeDocumentMoniker": "Batalha Personagens\\Guerreiro.cs",
+              "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Guerreiro.cs",
+              "RelativeToolTip": "Batalha Personagens\\Guerreiro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T01:26:33.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mago.cs",
+              "DocumentMoniker": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Mago.cs",
+              "RelativeDocumentMoniker": "Batalha Personagens\\Mago.cs",
+              "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Mago.cs",
+              "RelativeToolTip": "Batalha Personagens\\Mago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T01:25:57.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPersonagem.cs",
+              "DocumentMoniker": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\IPersonagem.cs",
+              "RelativeDocumentMoniker": "Batalha Personagens\\IPersonagem.cs",
+              "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\IPersonagem.cs",
+              "RelativeToolTip": "Batalha Personagens\\IPersonagem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:22:31.479Z",
               "EditorCaption": ""
             }
           ]

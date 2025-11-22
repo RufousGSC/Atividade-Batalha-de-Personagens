@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Batalha Personagens")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79c6e356d37b171a6bdff763ec2e514b6f06f71f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbea3354d268bc2e1dded0a8a3c7c44bd2d3e763")]
 [assembly: System.Reflection.AssemblyProductAttribute("Batalha Personagens")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Batalha Personagens")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
