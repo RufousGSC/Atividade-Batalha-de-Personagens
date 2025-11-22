@@ -141,6 +141,7 @@ while (true)
     {
         break;
     }
+    Thread.Sleep(400);
 }
 
 

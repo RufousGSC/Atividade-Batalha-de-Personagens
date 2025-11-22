@@ -23,7 +23,7 @@ namespace Batalha_Personagens
         public void AcaoDefesa()
         {
             Random RndDefesa = new Random();
-            this.Defesa = RndDefesa.Next(1,31);
+            this.Defesa = RndDefesa.Next(1,26);
         }
 
         public int GetAtaque()
@@ -38,6 +38,10 @@ namespace Batalha_Personagens
 
         public int GetVida()
         {
+            if(this.vida < 0)
+            {
+                this.vida = 0;
+            }
             return this.vida;
         }
 

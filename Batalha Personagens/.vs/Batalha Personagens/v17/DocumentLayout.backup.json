@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\guerreiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\guerreiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|solutionrelative:batalha personagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFE18132-401A-40DE-A4EF-4832AE1D13F1}|Batalha Personagens\\Batalha Personagens.csproj|c:\\users\\rufou\\documents\\batalha\\batalha personagens\\batalha personagens\\mago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
               "RelativeDocumentMoniker": "Batalha Personagens\\Program.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Program.cs",
               "RelativeToolTip": "Batalha Personagens\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAI8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T22:48:17.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Guerreiro.cs",
               "DocumentMoniker": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Guerreiro.cs",
               "RelativeDocumentMoniker": "Batalha Personagens\\Guerreiro.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Guerreiro.cs",
               "RelativeToolTip": "Batalha Personagens\\Guerreiro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T01:26:33.484Z",
               "EditorCaption": ""
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "Batalha Personagens\\Mago.cs",
               "ToolTip": "C:\\Users\\rufou\\Documents\\Batalha\\Batalha Personagens\\Batalha Personagens\\Mago.cs",
               "RelativeToolTip": "Batalha Personagens\\Mago.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T01:25:57.564Z",
               "EditorCaption": ""
