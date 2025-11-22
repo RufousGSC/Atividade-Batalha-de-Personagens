@@ -14,18 +14,48 @@ Jogador2.AcaoDefesa();
 
 while (true)
 {
-    if (Jogador1.GetAtaque() < Jogador2.GetDefesa())
+    if (Jogador1.GetAtaque() == Jogador2.GetDefesa())
     {
-        Console.WriteLine("\nJogador 1 perdeu " + Jogador1.GetAtaque() + " + " + Jogador2.GetDefesa() + "\n");
-        Jogador1.vida = Jogador1.vida + (Jogador1.GetAtaque() - Jogador2.GetDefesa());
-        Console.WriteLine("jogador 2 vida: " + Jogador2.GetVida() + "\nJogador 1 Vida: " + Jogador1.GetVida());
+        Console.WriteLine("Empate " + Jogador1.GetAtaque() + " + " + Jogador2.GetDefesa() + "\n");
     }
     else
     {
-        Console.WriteLine("\nJogador 2 Perdeu " + Jogador1.GetAtaque() + " + " + Jogador2.GetDefesa() + "\n");
-        Jogador2.vida = Jogador2.vida - (Jogador1.GetAtaque() - Jogador2.GetDefesa());
-        Console.WriteLine("Jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+        if (Jogador1.GetAtaque() < Jogador2.GetDefesa())
+        {
+            Console.WriteLine("\nJogador 1 perdeu Ataque " + Jogador1.GetAtaque() + " x " + Jogador2.GetDefesa() + "\n");
+            Jogador1.vida = Jogador1.vida + (Jogador1.GetAtaque() - Jogador2.GetDefesa());
+            Console.WriteLine("jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+        }
+        else
+        {
+            Console.WriteLine("\nJogador 2 Perdeu Defesa " + Jogador1.GetAtaque() + " x " + Jogador2.GetDefesa() + "\n");
+            Jogador2.vida = Jogador2.vida - (Jogador1.GetAtaque() - Jogador2.GetDefesa());
+            Console.WriteLine("Jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+        }
     }
+
+    Console.WriteLine("-------------------------------");
+    if (Jogador1.GetDefesa() == Jogador2.GetAtaque())
+    {
+        Console.WriteLine("Empate " + Jogador1.GetAtaque() + " x " + Jogador2.GetDefesa() + "\n");
+    }
+     else 
+     {
+        if (Jogador1.GetDefesa() < Jogador2.GetAtaque())
+        {
+            Console.WriteLine("\nJogador 1 perdeu Defesa " + Jogador1.GetDefesa() + " x " + Jogador2.GetAtaque() + "\n");
+            Jogador1.vida = Jogador1.vida + (Jogador1.GetDefesa() - Jogador2.GetAtaque());
+            Console.WriteLine("jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+        }
+        else
+        {
+            Console.WriteLine("\nJogador 2 Perdeu Ataque " + Jogador1.GetDefesa() + "  " + Jogador2.GetAtaque() + "\n");
+            Jogador2.vida = Jogador2.vida - (Jogador1.GetDefesa() - Jogador2.GetAtaque());
+            Console.WriteLine("jogador 1 vida: " + Jogador1.GetVida() + "\nJogador 2 Vida: " + Jogador2.GetVida());
+        }
+     }
+
+    Console.WriteLine("xxxxx---------xxxxx----------xxxx");
 
     Jogador1.AcaoAtaque();
     Jogador1.AcaoDefesa();
